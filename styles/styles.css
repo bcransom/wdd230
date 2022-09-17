@@ -7,6 +7,9 @@ header, footer {
  /* font-weight: bold; */
   background-color: #1661B6;
   border-radius: 25px;
+  max-width: 940px;
+  padding: 5px 25px;
+  margin: 0 auto;
 }
 
 img {
@@ -32,6 +35,9 @@ h1 {
 
 main {
   grid-template-columns: repeat(3, 1fr);
+  max-width: 940px;
+  padding: 5px 25px;
+  margin: 0 auto;
 }
 
 
