@@ -1,0 +1,7 @@
+header {
+    display: grid;
+    grid-template-columns: 110px auto;
+    align-items: center;
+    font-weight: bold;
+  }
+  
