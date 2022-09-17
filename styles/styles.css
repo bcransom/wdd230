@@ -10,7 +10,7 @@ header, footer {
 }
 
 img {
-  max-width: 100%;
+  max-width: 200px;
   max-height: 100%;
   object-fit: cover;
   grid-column: 2/3;
