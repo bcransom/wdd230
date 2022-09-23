@@ -1,0 +1,21 @@
+@media (min-width: 32.5em) {
+    header, footer {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: none;
+        border-radius: 25px;
+      }
+      
+      img {
+        grid-column: 2/3;
+        grid-row: none;
+      }
+      
+      h1 {
+        padding: 1.5em;
+        line-height: 1.5em;
+        color: white;
+        grid-column: 3/5;
+        grid-row: none;
+      }
+}
