@@ -1,5 +1,5 @@
 //Last Updated Date 
-document.getElementById("lastmodified").innerHTML = `<span class="highlight">Last Updated: ${document.lastModified}</span>`;
+document.getElementById("last-modified").innerHTML = `<span class="highlight">Last Updated: ${document.lastModified}</span>`;
 
 //Current Year Date
-document.getElementById("currentyear").innerHTML = new Date().getFullYear();
+document.getElementById("current-year").innerHTML = new Date().getFullYear();
