@@ -1,6 +1,7 @@
 @media (min-width: 60em) {
     main{
         grid-template-columns: 1fr 1fr 1fr;
+        max-width: 960px;
     }
 
     main section:nth-child(3) {
