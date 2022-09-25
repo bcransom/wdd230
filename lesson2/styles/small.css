@@ -1,0 +1,77 @@
+header, footer {
+    background-color: #ffe4c4;
+    justify-content: center;
+    padding: 25px 25px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+    color: #073367;
+  }
+
+h1 {
+    padding: 0.5em;
+    line-height: 1em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+header a {
+    font-family: 'Lora', serif;
+    color: #073367; 
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section {
+    margin: .5rem;
+    border: 1px solid gray;
+    padding: 0 2rem;
+    background-color:#eee;
+    border-radius: 25px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: .5em;
+    line-height: 1.5;
+  }
+
+main section img {
+    width: 100%;
+    height: auto;
+    border: 1px solid#bbb;
+}
+
+footer {
+    font-family: 'Lora', serif;
+    color: #073367; 
+    text-align: center;
+}
+
+.highlight {
+	color: rgb(255, 111, 0);
+}
+
+/*
+COLOR OPTIONS: #073367  #001B3B   
+h3 {
+    background-color: #fff2e2;
+}
+*/
