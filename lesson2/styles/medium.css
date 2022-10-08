@@ -1,4 +1,8 @@
 @media (min-width: 32.5em) {
+    header, footer {
+        max-width: 767px;
+    }
+    
     main{
         grid-template-columns: 1fr 1fr;
     }
