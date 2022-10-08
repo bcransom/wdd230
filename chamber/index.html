@@ -32,40 +32,48 @@
   
   </head>
 
+  <!--   HEADER   -->
+  <!--   The header must contain a logo, site name, and navigation (nav), spanning the entire screen in the large view.
+    The header also displays the current date using JavaScript in this format: Wednesday, 24 July 2020.
+    You may elect to limit the content width within the header. 
+    The navigation contains four page links and two social media external links. 
+    The navigation menu starts with a 'hamburger' button in the small and medium views and is visible in the larger view.   -->
   <header>
-    <img src="images/corn-logo.png" alt="Enterprise City Chamber Corn logo " />
-    <h1>Enterprise City Chamber of Commerce</h1>
+    <div class="logo">
+      <img src="images/corn-logo.png" alt="Enterprise City Chamber Corn logo " />
+      <h1>Enterprise City Chamber of Commerce</h1>
+    </div>
+
+  <!--Insert FACEBOOK and SOCIAL MEDIA ICON/LINKS HERE-->
+  <div class="social">
+    <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook logo" /></a>
+    <a href="https://facebook.com"><img src="images/instagram-logo.png" alt="Instagram logo" /></a>
+  </div> 
 
   <nav>
-        <!--Insert FACEBOOK and SOCIAL MEDIA ICON/LINKS HERE-->
-        
-	<ul>
+    
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+	<ul id="primaryNav">
 		<li><a href="#">Discover</a></li>
 		<li><a href="#">Directory</a></li>
 		<li><a href="#">Join</a></li>
 		<li><a href="#">Contact</a></li>
-	</ul>
+	</ul>  
+
   </nav> 
+            
       <!--Insert JAVASCRIPT DATE-->
 
-</header>
+  </header>
 
   <main>
-       <!--Main to include: 
-    1) name of site
-    2) site purpose
-    3) available domain
-    4) simple logo-->
+       <!--Main to include ....  -->
     
-    <h2>Purpose</h2>
-    <p>Provide information on businesses and organizations within the Enterprise 
-      City and surrounding communities. Encourage networking of businesses and 
-      professionals to help increase success and support for each other. Provide 
-      education and guidance to keep members up to date on key topics and business 
-      issues in the community. 
+    <h2>Place Holder</h2>
+    <p>Place Holder
     </p>
-    <h2>Domain</h2>
-    <p>Enterprisecitychamber.org
+    <h2>Place Holder</h2>
+    <p>Place Holder
     </p>
   </main> 
 
@@ -73,5 +81,6 @@
     <p>
       &copy; <span id="current-year"></span>  |  Chanae Ransom  |  Utah
     </p>
+    <script src="scripts/script.js"></script>
   </footer>
 </html>

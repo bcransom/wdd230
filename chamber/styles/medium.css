@@ -1,5 +1,22 @@
 @media (min-width: 55em){
 
+
+    header {
+        padding: 5px 25px;
+    }
+
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        color: #608708;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        border-top: none;
+    }
+    
+
+
     nav ul {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -14,13 +31,18 @@
         background-color: #EFB514;
         color: white;
     }
+
+    nav button {
+        display: none;
+    }
     
+    .social {
+        display: flex;
+        justify-content: flex-end; 
+     }
+
     header h1 {
         font-size: 40px;
-    }
-
-    table {
-        max-width: 400px;
     }
 
 
