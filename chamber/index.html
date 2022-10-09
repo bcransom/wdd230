@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css" >
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 
     <!-- link to Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,8 +51,7 @@
     <a href="https://facebook.com"><img src="images/instagram-logo.png" alt="Instagram logo" /></a>
   </div> 
 
-  <nav>
-    
+  <nav>    
     <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
 	<ul id="primaryNav">
 		<li><a href="#">Discover</a></li>
@@ -59,10 +59,10 @@
 		<li><a href="#">Join</a></li>
 		<li><a href="#">Contact</a></li>
 	</ul>  
-
   </nav> 
             
       <!--Insert JAVASCRIPT DATE-->
+      <div class="date"></div>
 
   </header>
 
@@ -77,10 +77,47 @@
     </p>
   </main> 
 
+  <!--   FOOTER to include 
+  
+    The footer contains 
+  <div footContact>
+  1) the logo (a placeholder icon/image is fine for now), 
+  2) contact information, 
+  3) a link to a map, 
+  
+  and a base footer with a 
+  <div footBase>
+  1) dynamic copyright year (driven by JavaScript), 
+  2) site name, 
+  3) your name, 
+  4) "WDD 230 Project", 
+  5) and the last modification date driven by JavaScript.-->
+
   <footer>
+    <section class="footContact">
+      <div class="logo">
+        <img src="images/corn-logo.png" alt="Enterprise City Chamber Corn logo " />
+        <h1>Enterprise City Chamber of Commerce</h1>
+        <p>1100 N Boulevard<br>Enterprise, Utah, 84725</p>
+        <p>info@enterprisecitychamber.org</p>
+        <p>(123)456-7890</p>
+        <p><a href="https://www.google.com/maps/place/Enterprise,+UT/@37.566203,-113.713138,14z/data=!3m1!4b1!4m5!3m4!1s0x80b58ba09e7d7481:0xc72698404059a713!8m2!3d37.5735867!4d-113.7191329">
+          Location</a></p>
+
+      </div>
+      <div class="contact">
+        <p></p>
+      </div>
+
+
+    </section>
+    <br>
+    <section class="footBase">
     <p>
-      &copy; <span id="current-year"></span>  |  Chanae Ransom  |  Utah
+      &copy; <span id="current-year"></span>  |  Enterprise City Chamber  
+      |  Chanae Ransom  |  WDD 230 Project  |  Last Modification: <span id="last-modified"></span>
     </p>
     <script src="scripts/script.js"></script>
+    </section>
   </footer>
 </html>
