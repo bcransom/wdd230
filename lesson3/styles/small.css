@@ -99,9 +99,11 @@ table {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
   }
+
 table th {
-    background-color: #999;
+    background-color: #eee;
   }
+
 table td{
     width: 25%;
     height: 3em;
@@ -111,6 +113,19 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
   }
+
+.target th {
+    background-color: #eee;
+    text-align: left;
+    padding: 1em;
+}
+
+.target td {
+    text-align: left;
+    padding: 1em;
+    width: 60%;
+}
+
 
 .primary {
     background-color: #EFB514;
