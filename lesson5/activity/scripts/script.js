@@ -15,5 +15,30 @@ const list = document.querySelector('ul');
 button.addEventListener('click', function() {
 
     //if block to check if the input is blank then do nothing
-    
+    if (input.value === ""){
+        return false;
+    } else {
+        const myItem = input.value;
+        input.value = '';
+        const listItem = document.createElement('li');
+        const listText = document.createElement('span');
+        const listBtn = document.createElement('button');
+        
+        listItem.appendChild(listText);
+        listItem.appendChild(listBtn);
+
+        listText.textContent = myItem;
+        listBtn.textContent = `✗ Remove ${listText.textContent}`;
+
+        list.appendChild(listItem);
+
+        listBtn.addEventListener('click', () => {
+            list.removeChild(listItem);
+        })
+
+        input.focus();
+        
+        return true;
+    }
+
 })
