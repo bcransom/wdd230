@@ -9,6 +9,11 @@
         font-size: 1.5rem;
     }
 
+
+    .join {
+        display: block;
+    }
+
     /*
     nav ul li a {
         display: block;
