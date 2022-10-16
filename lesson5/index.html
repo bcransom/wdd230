@@ -1,0 +1,139 @@
+<!-- Doctype HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8" />
+
+    <!-- Viewport for responsive web design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Learning Project: Chamber of Commerce (home page)"
+    />
+
+    <!-- Document Title -->
+    <title>Enterprise City Chamber of Commerce</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">    
+
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- link to Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <!--   HEADER   -->
+  <!--   The header must contain a logo, site name, and navigation (nav), spanning the entire screen in the large view.
+    The header also displays the current date using JavaScript in this format: Wednesday, 24 July 2020.
+    You may elect to limit the content width within the header. 
+    The navigation contains four page links and two social media external links. 
+    The navigation menu starts with a 'hamburger' button in the small and medium views and is visible in the larger view.   -->
+  <header>
+    <div class="logo">
+      <img src="images/corn-logo.png" alt="Enterprise City Chamber Corn logo " />
+      <h1>Enterprise City Chamber of Commerce</h1>
+    </div>
+
+  <!--Insert FACEBOOK and SOCIAL MEDIA ICON/LINKS HERE-->
+  <div class="social">
+    <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook logo" /></a>
+    <a href="https://facebook.com"><img src="images/instagram-logo.png" alt="Instagram logo" /></a>
+  </div> 
+
+  <nav>    
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+	<ul id="primaryNav">
+		<li><a href="#">Discover</a></li>
+		<li><a href="#">Directory</a></li>
+		<li><a href="#">Join</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>  
+  </nav> 
+            
+      <!--Insert JAVASCRIPT DATE-->
+      <div class="date"></div>
+
+  </header>
+
+  <main>
+       <!--Main to include ....  -->
+    <div class="herodiv">
+      <h2 class="heroh2">Welcome to Enterprise</h2>
+      <img class='heroimg' src="images/corn-field.jpg" alt="hero image">
+      <button class="herobtn"><h3>Join Chamber</h3></button>
+    </div>
+    <div class="event">Event</div>
+    <div class="weather">Weather</div>
+    <div class="news">News Release</div>
+    <section class="spotlight">
+      <div id="spot1">Spotlight 1</div>
+      <div id="spot2">Spotlight 1</div>
+    </section>
+    <div class="join">Join</div>
+
+
+  </main> 
+
+  <!--   FOOTER to include 
+  
+    The footer contains 
+  <div footContact>
+  1) the logo (a placeholder icon/image is fine for now), 
+  2) contact information, 
+  3) a link to a map, 
+  
+  and a base footer with a 
+  <div footBase>
+  1) dynamic copyright year (driven by JavaScript), 
+  2) site name, 
+  3) your name, 
+  4) "WDD 230 Project", 
+  5) and the last modification date driven by JavaScript.-->
+
+ 
+  <footer>
+     <!--NEED TO ADD GRID OR SOMETHING TO MAKE IT ALL FIT
+    <section class="footContact">
+      <div class="logo">
+        <img src="images/corn-logo.png" alt="Enterprise City Chamber Corn logo " />
+        <h1>Enterprise City Chamber of Commerce</h1>
+        <p>1100 N Boulevard<br>Enterprise, Utah, 84725</p>
+        <p>info@enterprisecitychamber.org</p>
+        <p>(123)456-7890</p>
+        <p><a href="https://www.google.com/maps/place/Enterprise,+UT/@37.566203,-113.713138,14z/data=!3m1!4b1!4m5!3m4!1s0x80b58ba09e7d7481:0xc72698404059a713!8m2!3d37.5735867!4d-113.7191329">
+          Location</a></p>
+
+      </div>
+      <div class="contact">
+        <p></p>
+      </div>
+
+-->
+    </section>
+    <br>
+    <section class="footBase">
+    <p>
+      &copy; <span id="current-year"></span>  |  Enterprise City Chamber  
+      |  Chanae Ransom  |  WDD 230 Project  |  Last Modification: <span id="last-modified"></span>
+    </p>
+    <script src="scripts/script.js"></script>
+    </section>
+  </footer>
+</html>
