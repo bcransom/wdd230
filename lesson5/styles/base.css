@@ -171,18 +171,27 @@ main section {
     left: 30px;
 }
 
-.herobtn {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
+button {
     background-color: #EFB514;
     padding: 5px 10px;
     border-radius: 10px;
     font-size: 1em;
 }
 
+.herobtn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+
 .event {
     background: #9DC516;
+}
+
+
+#spot3 {
+    display: none
 }
 
 .join {

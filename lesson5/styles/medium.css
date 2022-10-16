@@ -10,10 +10,6 @@
     }
 
 
-    .join {
-        display: block;
-    }
-
 
     main {
         display: grid;
@@ -36,11 +32,19 @@
         grid-column: 1 / 4;
     }
 
+
+
     .join {
         display: block;
         grid-row: 4 / 5;
         grid-column: 1 / 4;
+        text-align: center;
     }
+
+    .joinbtn {
+        width: 100%;
+    }
+
 
     .event {
         grid-row: 5 / 6;
