@@ -56,6 +56,10 @@
         font-size: 2rem;
     }
 
+    .banner p {
+        font-size: 24px;
+    }
+
     main {
         max-width: 1200px;
         display: grid;
