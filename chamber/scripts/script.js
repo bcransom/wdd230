@@ -1,10 +1,10 @@
 // Hamburger Button Toggle Menu
 function toggleMenu() {
-    document.getElementById('primaryNav').classList.toggle("open");
-    document.getElementById('hamburgerBtn').classList.toggle("open");
+    document.getElementById('primary-nav').classList.toggle("open");
+    document.getElementById('hamburger-btn').classList.toggle("open");
 }
 
-const x = document.getElementById('hamburgerBtn')
+const x = document.getElementById('hamburger-btn')
 x.onclick = toggleMenu;
 
 // Current Date
