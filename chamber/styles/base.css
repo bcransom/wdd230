@@ -82,19 +82,19 @@ nav ul.open {
 }
 
 /* setting the hamburger button visible, and X visible*/
-#hamburgerBtn span:nth-child(1) {
+#hamburger-btn span:nth-child(1) {
     display: block;
 }
 
-#hamburgerBtn span:nth-child(2) {
+#hamburger-btn span:nth-child(2) {
     display: none;
 }
 
-#hamburgerBtn.open span:nth-child(1) {
+#hamburger-btn.open span:nth-child(1) {
     display: none;
 }
 
-#hamburgerBtn.open span:nth-child(2) {
+#hamburger-btn.open span:nth-child(2) {
     display: block;
 }
 
@@ -157,32 +157,41 @@ main section {
     margin: 1rem; 
 } 
 
-.herodiv {
+.hero-div {
     position: relative;
 }
 
-.heroimg {
+.hero-img {
     width: 100%;
 }
 
-.heroh2 {
+.hero-h2 {
     position: absolute;
     top: 20px;
     left: 30px;
 }
 
-.herobtn {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
+button {
     background-color: #EFB514;
     padding: 5px 10px;
     border-radius: 10px;
     font-size: 1em;
 }
 
+.hero-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+
 .event {
     background: #9DC516;
+}
+
+
+#spot3 {
+    display: none
 }
 
 .join {
@@ -202,7 +211,7 @@ footer {
     font-size: .75rem;
 }
 
-.footContact {
+.foot-contact {
  /*   background-color: #eee; */
     max-width: 940px;
     padding: 5px 25px;

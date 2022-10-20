@@ -1,4 +1,3 @@
-<!-- Doctype HTML5 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,8 +57,8 @@
   </div> 
 
   <nav>    
-    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-	<ul id="primaryNav">
+    <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+	<ul id="primary-nav">
 		<li><a href="#">Discover</a></li>
 		<li><a href="#">Directory</a></li>
 		<li><a href="#">Join</a></li>
@@ -73,20 +72,52 @@
   </header>
 
   <main>
+
+      <!-- BANNER - Does this go here? if statement in Javascript but then how to do CSS? --> 
+      <!--
+      <div class="banner">
+        <div class="bannercontent">
+          <div class="bannertxt">
+            <p>Come Join us for the chamber meet and greet Wednesday at 7:00 pm</p>
+            <button class="bannerbtn"><span class="bannericon">Close</span></button>
+          </div>
+        </div>
+      </div>
+    -->
+
        <!--Main to include ....  -->
-    <div class="herodiv">
-      <h2 class="heroh2">Welcome to Enterprise</h2>
-      <img class='heroimg' src="images/corn-field.jpg" alt="hero image">
-      <button class="herobtn"><h3>Join Chamber</h3></button>
+    <div class="hero-div">
+      <h2 class="hero-h2">Welcome to Enterprise</h2>
+      <img class='hero-img' src="images/corn-field.jpg" alt="hero image">
+      <button class="hero-btn"><h3>Join Chamber</h3></button>
     </div>
-    <div class="event">Event</div>
+    <div class="event">
+      <h3>Upcoming Events</h3>
+      <h4>Enterprise Cornfest</h4>
+      <p>August 27, 2022 - Join us for the annual Cornfest and enjoy fresh corn, 
+        vintage cars and more...</p>
+    </div>
     <div class="weather">Weather</div>
-    <div class="news">News Release</div>
+    <div class="news">
+      <h3>News Release</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+        est laborum.</p>
+    </div>
     <section class="spotlight">
       <div id="spot1">Spotlight 1</div>
-      <div id="spot2">Spotlight 1</div>
+      <div id="spot2">Spotlight 2</div>
+      <div id="spot3">Spotlight 3</div>
     </section>
-    <div class="join">Join</div>
+    <div class="join">
+      <button class="join-btn"><h3>Join Us</h3></button>
+      <p>Discover how to join the chamber of commerce and how it will benefit 
+        your organization!</p>
+    </div>
 
 
   </main> 
@@ -94,13 +125,13 @@
   <!--   FOOTER to include 
   
     The footer contains 
-  <div footContact>
+  <div foot-contact>
   1) the logo (a placeholder icon/image is fine for now), 
   2) contact information, 
   3) a link to a map, 
   
   and a base footer with a 
-  <div footBase>
+  <div foot-base>
   1) dynamic copyright year (driven by JavaScript), 
   2) site name, 
   3) your name, 
@@ -110,7 +141,7 @@
  
   <footer>
      <!--NEED TO ADD GRID OR SOMETHING TO MAKE IT ALL FIT
-    <section class="footContact">
+    <section class="foot-contact">
       <div class="logo">
         <img src="images/corn-logo.png" alt="Enterprise City Chamber Corn logo " />
         <h1>Enterprise City Chamber of Commerce</h1>
@@ -128,7 +159,7 @@
 -->
     </section>
     <br>
-    <section class="footBase">
+    <section class="foot-base">
     <p>
       &copy; <span id="current-year"></span>  |  Enterprise City Chamber  
       |  Chanae Ransom  |  WDD 230 Project  |  Last Modification: <span id="last-modified"></span>
