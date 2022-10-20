@@ -13,8 +13,8 @@
 
     main {
         display: grid;
-        grid-template-rows: repeat(5);
-        grid-template-columns: repeat(3);
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     } 
     
     .hero-div {
