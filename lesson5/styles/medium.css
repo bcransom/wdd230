@@ -32,8 +32,9 @@
     .spotlight {
         grid-row: 3 / 4;
         grid-column: 1 / 4;
+        display: flex;
+        max-width: 100%;
     }
-
 
 
     .join {
