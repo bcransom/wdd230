@@ -173,7 +173,7 @@ main section {
     position: relative;
 }
 
-figure.hero-img img {
+picture.hero-img img {
     width: 100%;
     margin: 0;
 }

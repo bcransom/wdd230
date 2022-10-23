@@ -79,14 +79,12 @@
   
        <div class="hero-div">
         <h2 class="hero-h2">Welcome to Enterprise</h2>
-        <figure class="hero-img">
-          <img src="images/wdd230-org.jpg" alt="hero image" sizes="50vw"
-          srcset="images/wdd230-org-200.jpeg 200w,
-                  images/wdd230-org-500.jpeg 500w,
-                  images/wdd230-org-800.jpeg 800w
-                  ">
+        <picture class="hero-img">
+          <source media="(max-width: 32.4em)" srcset="images/wdd230-org-200.jpeg">
+          <source media="(max-width: 59.9em)" srcset="images/wdd230-org-500.jpeg">
+          <img src="images/wdd230-org-800.jpeg" alt="hero image">
           <button class="hero-btn"><h3>Join Chamber</h3></button>
-        </figure>
+        </picture>
       </div>
       <div class="event">
         <h3>Upcoming Events</h3>
