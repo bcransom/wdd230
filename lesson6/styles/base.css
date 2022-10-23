@@ -1,16 +1,18 @@
 body {
     padding: 0;
     margin: 0;
+  /*  background-color:#608708;*/
 }
 
 header {
-    max-width: 940px;
+  /*  max-width: 940px;*/
     padding: 5px 0;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 60% 20% 20%;
     align-items: center;
     border-bottom: 2px solid #9DC516;
+    background-color: white;
 }
 
 
@@ -171,9 +173,12 @@ main section {
     position: relative;
 }
 
-.hero-img {
+figure.hero-img img {
     width: 100%;
+    margin: 0;
 }
+
+
 
 .hero-h2 {
     position: absolute;
@@ -205,7 +210,7 @@ button {
 }
 
 footer {
-    max-width: 940px;
+ /*   max-width: 940px; */
     padding: 5px 25px;
     margin: 0 auto;
     display: block;
@@ -213,7 +218,8 @@ footer {
     justify-content: center;
     align-items: center;
   /*  background-color: #9DC516; */
-    background-color: #eee;
+ /*  background-color: #eee;  */
+    background-color: white;
     font-size: .75rem;
 }
 
