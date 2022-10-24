@@ -116,6 +116,14 @@ nav ul.open {
     padding: 1rem;
 }
 
+.showbanner {
+    display: block;
+}
+
+.hidebanner {
+    display: none;
+}
+
 .banner p {
     text-align: center;
 }
