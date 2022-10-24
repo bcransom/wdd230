@@ -22,3 +22,20 @@ document.getElementById("last-modified").innerHTML = `<span class="highlight">La
 
 //Current Year Date
 document.getElementById("current-year").innerHTML = new Date().getFullYear();
+
+//Banner show and hide 
+const newDate = new Date();
+const dateName = newDate.getDay();
+console.log(dateName)
+if (dateName === 1 || dateName === 2) {
+    document.querySelector(".banner").classList.add("showbanner");
+    console.log(dateName);
+} else {
+    if (document.querySelector(".banner").classList.contains("showbanner")){
+        document.querySelector(".banner").classList.remove("showbanner");
+        document.querySelector(".banner").classList.add("hidebanner")
+    } else {
+        document.querySelector(".banner").classList.add("hidebanner");
+    }
+    console.log(dateName);
+};
