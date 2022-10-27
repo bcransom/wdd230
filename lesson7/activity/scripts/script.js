@@ -4,11 +4,13 @@ document.getElementById("last-modified").innerHTML = `<span class="highlight">La
 //Current Year Date
 document.getElementById("current-year").innerHTML = new Date().getFullYear();
 
-// select all data-src attribute
-const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 //----------------------------------------------------------------------------
 //Progressive Loading Images
+
+
+// select all data-src attribute
+let imagesToLoad = document.querySelectorAll("img[data-src]");
 
 //loads correct image and removes the placeholder
 const loadImages = (image) => {
