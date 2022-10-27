@@ -33,10 +33,10 @@ img[data-src] {
 	filter: blur(0.2em);
 }
 
-img[src] {
+/* img[src] {
 	width: 300px;
 	height: 400px;
-}
+} */
 
 img {
 	border: 1px solid royalblue;
