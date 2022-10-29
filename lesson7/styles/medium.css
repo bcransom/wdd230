@@ -72,5 +72,15 @@
         margin: 40px 0;
     }
 
-   
+/* ----------------  DISCOVER PAGE ---------------- */
+
+.gallery picture img:hover {
+    border: 10px solid #EFB514;
+}   
+
+.discover {
+    display: grid;
+    grid-template-rows: auto;
+}
+
 }
