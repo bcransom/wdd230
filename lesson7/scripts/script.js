@@ -39,3 +39,4 @@ if (dateName === 1 || dateName === 2) {
     }
     console.log(dateName);
 };
+
