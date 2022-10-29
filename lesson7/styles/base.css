@@ -257,3 +257,15 @@ footer {
 .foot-base {
     text-align: center;
 }
+
+
+/* ----------------  DISCOVER PAGE ---------------- */
+
+
+
+.gallery picture img {
+    justify-content: center;
+    object-position: center;
+    align-items: center;
+    border: 1px solid #000;
+}

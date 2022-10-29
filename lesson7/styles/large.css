@@ -119,4 +119,12 @@
     }
 
 
+/* ----------------  DISCOVER PAGE ---------------- */
+
+.gallery picture img:hover {
+    border: 10px solid #EFB514;
 }
+
+}
+
+
