@@ -11,25 +11,6 @@
 //s = wind speed in miles per hour
 //--------------------
 
-// const temperature = document.querySelector('#temperature').textContent;
-// const windSpeed = document.querySelector('#wind-speed').textContent;
-// const windOutput = document.querySelector('#wind-chill').textContent;
-
-//let x = parseFloat(temperature.textContent);
-//let y = parseFloat(windSpeed.textContent);
-//console.log(`Temperature is ${x} and Wind Speed is ${y}`);
-
-//const windChill = 35.74 + .6215 * temperature - 35.75 * windSpeed ** .16 + .4275 * temperature * windSpeed ** .16;
-
-//let result = "N/A";
-// if (temperature <=50 && windSpeed > 3.0) {
-//     result = windChill;
-// } else {
-//     result = `N/A`;
-// }
-
-// windOutput.innerHTML = `${result}`;
-
 function windOutput(){
     let message = "";
     const temperature = document.querySelector('#temperature').textContent;
