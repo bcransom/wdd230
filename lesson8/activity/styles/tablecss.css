@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    box-shadow: 0 0 40px #eee;
+    border-collapse: collapse;
+}
+
+tr:first-child th, .highlight {
+    background-color: #EE9501;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #EFB514;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: #EE9501;
+    font-size: .85rem;
+}
+
+footer {
+    text-align: center;
+}

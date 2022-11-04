@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8" >
+
+    <!-- Viewport for responsive web design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    >
+
+    <!-- Meta Description -->
+    <meta
+      name="tablebuild"
+      content="Lesson 8 HTML Table Build for Chanae Ransom in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    >
+
+    <!-- Document Title -->
+    <title>HTML Table Build</title>
+
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="styles/tablecss.css">
+
+  </head>
+
+  <header>
+    <h1>Activity: HTML Table Build</h1>
+  </header>
+
+  <main>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" scope="colgroup">Sales</th>
+            </tr>
+            <tr>
+                <th scope="col">Month</th><th scope="col">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>July</td>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <td>August</td>
+                <td class="highlight">8,000</td>
+            </tr>
+            <tr>
+                <td>September</td>
+                <td>4,000</td>
+            </tr>
+            <tr>
+                <td>October</td>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <td>November</td>
+                <td>2,000</td>
+            </tr>
+        </tbody>
+        <caption>Table 1: Wasatch Sales</caption>
+    </table>
+
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="current-year"></span>  |  Chanae Ransom  |  Utah
+      <br>
+      <span id="last-modified"></span>
+    </p>
+    
+    <script src="scripts/script.js"></script>
+  </footer>
+</html>
