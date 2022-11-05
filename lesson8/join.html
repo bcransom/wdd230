@@ -75,9 +75,33 @@
    
     </header>
 
-    <main>
+    <main class="join-form">
+        <h1>Chamber Member Application</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Member Information</legend>
+                <div>Primary Contact</div>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position/Title <input type="text" name="position"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
 
-        <form method="get" action="">
+                <div>Business Details</div>
+                <label class="top">Business Name*<input type="text" name="business-name" required></label>
+                <label class="top">Business Description<input type="text" name="description"></label>
+                <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="membership" value="nonprofit">Non-Profit Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership</label>
+            </fieldset>
+
+            <input type="submit" value="Become a Member" class="submitBtn"> 
 
         </form>
 
