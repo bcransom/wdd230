@@ -125,7 +125,11 @@ span.visit-label {
     text-align: center;
 }
 
+/* ----------------  JOIN PAGE ---------------- */
 
+form label.sbs {
+    padding: .4rem 0;
+}
 
 }
 
