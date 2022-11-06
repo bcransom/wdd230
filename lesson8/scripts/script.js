@@ -17,6 +17,10 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
+//form submission date
+//using the Current date functions already created
+document.querySelector("#submission-date").value = fulldate;
+
 //Last Updated Date 
 document.getElementById("last-modified").innerHTML = `<span class="highlight">Last Updated: ${document.lastModified}</span>`;
 
