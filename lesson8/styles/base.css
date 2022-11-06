@@ -349,4 +349,10 @@ div.membership-levels h2 {
     text-align: center;
 }
 
+/* ----------------  THANKYOU PAGE ---------------- */
 
+main.thank-you {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
