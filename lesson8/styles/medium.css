@@ -83,4 +83,10 @@
     grid-template-rows: auto;
 }
 
+/* ----------------  JOIN PAGE ---------------- */
+
+input.submit-btn {
+    width: 95%;
+}
+
 }

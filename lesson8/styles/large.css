@@ -131,6 +131,28 @@ form label.sbs {
     padding: .4rem 0;
 }
 
+main.join-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:none;
+}
+
+main form {
+    grid-column: 1 /2;
+}
+
+main.join-form h1 {
+    text-align: center;
+    grid-column: 1 / 3;
+}
+
+div.membership-levels {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    margin: 0 2rem;
+}
+
 }
 
 
