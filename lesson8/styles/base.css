@@ -304,7 +304,7 @@ form label.top input, form label.top select, form label.top textarea {
     color: #555;
     width: 100%;
     max-width: 18rem;
-    background-color: rgba(0, 0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, .04);
 }
 
 form label.sbs {
