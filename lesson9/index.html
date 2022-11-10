@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8" >
+
+    <!-- Viewport for responsive web design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    >
+
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Learning Project: Chamber of Commerce (home page)"
+    >
+
+    <!-- Document Title -->
+    <title>Enterprise City Chamber of Commerce</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">    
+
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- link to Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <!--   HEADER   -->
+  <!--The navigation menu starts with a 'hamburger' button in the small and medium views and is visible in the larger view.-->
+    <header>
+          
+      <div class="logo" >
+        <img src="images/new-corn-logo.webp" alt="Enterprise City Chamber Corn logo " >
+        <h1>Enterprise City Chamber of Commerce</h1>
+      </div>
+  
+    <!--FACEBOOK and SOCIAL MEDIA ICON/LINKS-->
+    <div class="social">
+      <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook logo" ></a>
+      <a href="https://facebook.com"><img src="images/instagram-logo.png" alt="Instagram logo" ></a>
+    </div> 
+  
+    <nav>    
+      <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+    <ul id="primary-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="#">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>  
+    </nav> 
+              
+        <!--JAVASCRIPT DATE-->
+        <div class="date"></div>
+
+    <!-- BANNER --> 
+ 
+    <div class="banner">
+      <p>Come Join us for the Chamber Meet and Greet Wednesday at 7:00 pm</p>
+    </div> 
+   
+    </header>
+
+  <main class="home">
+
+  
+       <div class="hero-div">
+        <h2 class="hero-h2">Welcome to Enterprise</h2>
+        <picture class="hero-img">
+          <source media="(max-width: 32.4em)" srcset="images/wdd230-org-200.jpeg">
+          <source media="(max-width: 59.9em)" srcset="images/wdd230-org-500.jpeg">
+          <img src="images/wdd230-org-800.jpeg" alt="hero image">
+          <button class="hero-btn"><h3>Join Chamber</h3></button>
+        </picture>
+      </div>
+      <div class="event">
+        <h3>Upcoming Events</h3>
+        <h4>Enterprise Cornfest</h4>
+        <p>August 27, 2022 - Join us for the annual Cornfest and enjoy fresh corn, 
+          vintage cars and more...</p>
+      </div>
+      <div class="weather">
+        <h3>Weather</h3>
+        <p>Partly Cloudy</p>
+        <p>Temperature:
+        <span id="temperature">33</span></p>
+        <p>Wind Speed:
+        <span id="wind-speed">2.5</span></p>
+        <p>Wind Chill:
+          <span id="wind-chill"></span></p>
+      </div>
+      <div class="news">
+        <h3>News Release</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+          est laborum.</p>
+      </div>
+      <section class="spotlight">
+        <div id="spot1">
+          <h3>Joe's Market</h3>
+          <picture>
+            <img src="images/joes-market-logo.jpg" alt="Joe's Market logo">
+          </picture>
+        <p>Your neighborhood market!</p>
+        <p class="spot-contact">150 N Main <br> 
+        (234-567-8910) | Website</p>
+        </div>
+        <div id="spot2">
+          <h3>Enterprise Realty Brokerage</h3>
+          <picture>
+            <img src="images/enterprise-realty-logo.jpg" alt="Enterprise Realty Brokerage logo">
+          </picture>
+        <p>We'll help you find your forever home!</p>
+        <p class="spot-contact">236 S Center <br> 
+        (345-678-9102) | Website</p>
+        </div>
+        </div>
+        <div id="spot3">
+          <h3>Enterprise Today</h3>
+          <picture>
+            <img src="images/enterprise-today-news-logo.jpg" alt="Enterprise Today News logo">
+          </picture>
+        <p>News you can trust!</p>
+        <p class="spot-contact">30 N 100 W <br> 
+        (456-789-1023) | Website</p>
+        </div>
+      </section>
+      <div class="join">
+        <button class="join-btn"><h3>Join Us</h3></button>
+        <p>Discover how to join the chamber of commerce and how it will benefit 
+          your organization!</p>
+      </div>
+  
+  
+    </main> 
+  
+
+ 
+  <footer>
+   <section class="foot-contact">
+     <div class="footer-logo">
+       <img src="images/new-corn-logo.webp" alt="Enterprise City Chamber Corn logo " >
+       <div><h1>Enterprise City Chamber of Commerce</h1>
+       <p>1100 N Boulevard<br>Enterprise, Utah, 84725</p></div>
+       <div><p>info@enterprisecitychamber.org</p>
+       <p>(123)456-7890</p>
+       <p><a href="https://www.google.com/maps/place/Enterprise,+UT/@37.566203,-113.713138,14z/data=!3m1!4b1!4m5!3m4!1s0x80b58ba09e7d7481:0xc72698404059a713!8m2!3d37.5735867!4d-113.7191329">
+         Location</a></p></div>
+     </div>
+
+   </section>
+   <br>
+   <div class="foot-base">
+   <p>
+     &copy; <span id="current-year"></span>  |  Enterprise City Chamber  
+     |  Chanae Ransom  |  WDD 230 Project  |  Last Modification: <span id="last-modified"></span>
+   </p>
+   <script src="scripts/script.js"></script>
+   <script src="scripts/windchill.js"></script>
+   </div>
+ </footer>
+</html>
