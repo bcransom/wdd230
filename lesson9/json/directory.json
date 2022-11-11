@@ -1,0 +1,67 @@
+{
+    "directory": [
+      {
+        "name": "Enterprise Cafe",
+        "phone": "789-012-3456",
+        "website": "www.enterprisecafeutah.com",
+        "logo": "cafe-logo",
+        "membership": "bronze"
+      },
+      {
+        "name": "Enterprise Realty Brokerage",
+        "phone": "345-678-9102",
+        "website": "www.enterpriseutahrealty.com",
+        "logo": "enterprise-realty-logo",
+        "membership": "silver"
+      },
+      {
+        "name": "Holly Wallace - Real Estate Agent",
+        "phone": "890-123-4567",
+        "website": "www.hollywallace-utahrealty.com",
+        "logo": "holly-wallace",
+        "membership": "bronze"
+      },
+      {
+        "name": "Joe's Market",
+        "phone": "234-567-8910",
+        "website": "www.joesmarket-enterprise.com",
+        "logo": "joes-market-logo",
+        "membership": "gold"
+      },
+      {
+        "name": "Enterprise Today",
+        "phone": "456-789-1023",
+        "website": "www.enterprisetoday-utahnews.com",
+        "logo": "enterprise-today-news-logo",
+        "membership": "silver"
+      },
+      {
+        "name": "Valley Community Farmers Market",
+        "phone": "901-234-5678",
+        "website": "www.enterpriseutah-farmersmarket.com",
+        "logo": "farmers-market-logo",
+        "membership": "non-profit"
+      },
+      {
+        "name": "New Castle Arts & Theatre Foundation",
+        "phone": "212-213-4567",
+        "website": "www.newcastlearts.com",
+        "logo": "newcastle-arts-logo",
+        "membership": "non-profit"
+      },
+      {
+        "name": "Bracken's Auto & Parts",
+        "phone": "212-213-5678",
+        "website": "www.brackensauto.com",
+        "logo": "bracken-auto",
+        "membership": "bronze"
+      },
+      {
+        "name": "Zion's National Bank",
+        "phone": "212-213-6789",
+        "website": "www.zionsbank-enterpriseut.com",
+        "logo": "zions-bank-logo",
+        "membership": "silver"
+      }
+    ]
+}
