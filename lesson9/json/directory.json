@@ -1,21 +1,24 @@
 {
-    "directory": [
+    "members": [
       {
         "name": "Enterprise Cafe",
+        "address": "120 S Center Street Enterprise Utah 84725",
         "phone": "789-012-3456",
         "website": "www.enterprisecafeutah.com",
         "logo": "cafe-logo",
-        "membership": "bronze"
+        "membership": "silver"
       },
       {
         "name": "Enterprise Realty Brokerage",
+        "address": "450 E Main Street Enterprise Utah 84725",
         "phone": "345-678-9102",
         "website": "www.enterpriseutahrealty.com",
-        "logo": "enterprise-realty-logo",
+        "logo": "images/enterprise-realty-logo.jpg",
         "membership": "silver"
       },
       {
         "name": "Holly Wallace - Real Estate Agent",
+        "address": "450 E Main Street Enterprise Utah 84725",
         "phone": "890-123-4567",
         "website": "www.hollywallace-utahrealty.com",
         "logo": "holly-wallace",
@@ -23,6 +26,7 @@
       },
       {
         "name": "Joe's Market",
+        "address": "167 E Main Street Enterprise Utah 84725",
         "phone": "234-567-8910",
         "website": "www.joesmarket-enterprise.com",
         "logo": "joes-market-logo",
@@ -30,13 +34,15 @@
       },
       {
         "name": "Enterprise Today",
+        "address": "375 S 200 E Enterprise Utah 84725",
         "phone": "456-789-1023",
         "website": "www.enterprisetoday-utahnews.com",
         "logo": "enterprise-today-news-logo",
-        "membership": "silver"
+        "membership": "gold"
       },
       {
         "name": "Valley Community Farmers Market",
+        "address": "360 S 625 E Enterprise Utah 84725",
         "phone": "901-234-5678",
         "website": "www.enterpriseutah-farmersmarket.com",
         "logo": "farmers-market-logo",
@@ -44,6 +50,7 @@
       },
       {
         "name": "New Castle Arts & Theatre Foundation",
+        "address": "210 N 100 E New Castle Utah 84756",
         "phone": "212-213-4567",
         "website": "www.newcastlearts.com",
         "logo": "newcastle-arts-logo",
@@ -51,6 +58,7 @@
       },
       {
         "name": "Bracken's Auto & Parts",
+        "address": "322 N Center Street Enterprise Utah 84725",
         "phone": "212-213-5678",
         "website": "www.brackensauto.com",
         "logo": "bracken-auto",
@@ -58,10 +66,11 @@
       },
       {
         "name": "Zion's National Bank",
+        "address": "130 E Main Street Enterprise Utah 84725",
         "phone": "212-213-6789",
         "website": "www.zionsbank-enterpriseut.com",
         "logo": "zions-bank-logo",
-        "membership": "silver"
+        "membership": "gold"
       }
     ]
 }
