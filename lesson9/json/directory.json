@@ -29,7 +29,7 @@
         "address": "167 E Main Street Enterprise Utah 84725",
         "phone": "234-567-8910",
         "website": "www.joesmarket-enterprise.com",
-        "logo": "joes-market-logo",
+        "logo": "images/joes-market-logo.jpg",
         "membership": "gold"
       },
       {
@@ -37,7 +37,7 @@
         "address": "375 S 200 E Enterprise Utah 84725",
         "phone": "456-789-1023",
         "website": "www.enterprisetoday-utahnews.com",
-        "logo": "enterprise-today-news-logo",
+        "logo": "images/enterprise-today-news-logo.jpg",
         "membership": "gold"
       },
       {
