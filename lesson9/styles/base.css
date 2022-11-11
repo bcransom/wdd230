@@ -356,3 +356,22 @@ main.thank-you {
     text-align: center;
     padding: 2rem;
 }
+
+/* ----------------  DIRECTORY PAGE ---------------- */
+
+.directory-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin: 10px;
+    padding: 10px;
+	align-items: center;
+}
+
+.card img {
+    max-width: 200px;
+}
+
+.directory-cards section:nth-child(1) {
+    display: none;
+}

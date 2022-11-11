@@ -18,6 +18,8 @@ function displayMembers(member) {
     let phone = document.createElement('p');
     let website = document.createElement('p');
 
+    // Add content to the elements
+    card.setAttribute('class', 'card');
 
     // Change the textContent property of the elements to contain the appropriate information from the json data file
     h2.textContent = `${member.name}`;
