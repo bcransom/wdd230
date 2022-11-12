@@ -359,13 +359,14 @@ main.thank-you {
 
 /* ----------------  DIRECTORY PAGE ---------------- */
 
-.directory-cards {
+.directory-cards.grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
     margin: 10px;
     padding: 10px;
 	align-items: center;
+    text-align: center;
 }
 
 .card img {
@@ -375,3 +376,27 @@ main.thank-you {
 .directory-cards section:nth-child(1) {
     display: none;
 }
+
+.directory-menu {
+    text-align: center;
+}
+
+button#list, button#grid {
+    background-color: #EFB514;
+    padding: 0px 24px;
+    border-radius: 10px;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.directory-cards.list {
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+}
+
+/* section.card {
+    display: flex;
+    flex-direction: row;
+} */
+
