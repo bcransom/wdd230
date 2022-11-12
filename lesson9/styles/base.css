@@ -389,14 +389,25 @@ button#list, button#grid {
     margin: 10px;
 }
 
-.directory-cards.list {
-    display: block;
-    justify-content: left;
-    flex-direction: row;
-}
+
 
 /* section.card {
     display: flex;
     flex-direction: row;
 } */
+
+
+
+.list section img {
+    display: none;
+}
+
+.list section h2 {
+    line-height: 1.5em;
+    text-emphasis: bold;
+    font-size: 16px;
+    padding: 0;
+}
+
+
 

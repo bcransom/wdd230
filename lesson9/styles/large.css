@@ -156,7 +156,28 @@
    main.directory {
     max-width: 1200px;
    }
+
+
+   .list section {
+    display: flex;
+    flex-direction: row;
+    }
    
+    .list section h2 {
+        margin: 16px;
+    }
+
+    .list section p {
+        margin: 16px 10px;
+        gap: 10px;
+    }
+
+    .directory-cards.list {
+        display: block;
+        justify-content: left;
+        flex-direction: row;
+    }
+    
    }
    
    
