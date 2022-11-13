@@ -402,7 +402,7 @@ button#list, button#grid {
     padding: 0;
 }
 
-.grid section h2 {
+section.card h2 {
     font-size: 16px;
 }
 
