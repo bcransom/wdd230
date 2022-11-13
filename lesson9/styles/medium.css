@@ -89,5 +89,26 @@ input.submit-btn {
     width: 95%;
 }
 
+   /* ----------------  DIRECTORY PAGE ---------------- */
+
+   .directory-cards.list {
+    display: block;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.list section {
+    display: flex;
+    flex-direction: row;
+    }
+
+    .list section h2 {
+        margin: 16px;
+    }
+
+    .list section p {
+        margin: 16px 10px;
+        gap: 10px;
+    }
 
 }
