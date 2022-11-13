@@ -391,13 +391,6 @@ button#list, button#grid {
 
 
 
-/* section.card {
-    display: flex;
-    flex-direction: row;
-} */
-
-
-
 .list section img {
     display: none;
 }
@@ -407,6 +400,10 @@ button#list, button#grid {
     text-emphasis: bold;
     font-size: 16px;
     padding: 0;
+}
+
+.grid section h2 {
+    font-size: 16px;
 }
 
 
