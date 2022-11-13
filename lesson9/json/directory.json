@@ -5,7 +5,7 @@
         "address": "120 S Center Street Enterprise Utah 84725",
         "phone": "789-012-3456",
         "website": "www.enterprisecafeutah.com",
-        "logo": "cafe-logo",
+        "logo": "images/enterprise-cafe-logo.jpg",
         "membership": "silver"
       },
       {
@@ -45,7 +45,7 @@
         "address": "360 S 625 E Enterprise Utah 84725",
         "phone": "901-234-5678",
         "website": "www.enterpriseutah-farmersmarket.com",
-        "logo": "farmers-market-logo",
+        "logo": "images/farmers-market-logo.jpg",
         "membership": "non-profit"
       },
       {
@@ -53,7 +53,7 @@
         "address": "210 N 100 E New Castle Utah 84756",
         "phone": "212-213-4567",
         "website": "www.newcastlearts.com",
-        "logo": "newcastle-arts-logo",
+        "logo": "images/newcastle-arts-logo.jpg",
         "membership": "non-profit"
       },
       {
@@ -61,15 +61,15 @@
         "address": "322 N Center Street Enterprise Utah 84725",
         "phone": "212-213-5678",
         "website": "www.brackensauto.com",
-        "logo": "bracken-auto",
+        "logo": "images/bracken-auto.jpg",
         "membership": "bronze"
       },
       {
-        "name": "Zion's National Bank",
+        "name": "Valley National Bank",
         "address": "130 E Main Street Enterprise Utah 84725",
         "phone": "212-213-6789",
-        "website": "www.zionsbank-enterpriseut.com",
-        "logo": "zions-bank-logo",
+        "website": "www.valleybank-enterpriseut.com",
+        "logo": "images/valley-bank-logo.jpg",
         "membership": "gold"
       }
     ]
