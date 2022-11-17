@@ -30,7 +30,6 @@ header {
     width: 18px;
     display: inline;
     padding: .5em;
-    grid-column: 2 / 3;
 }
 
 header img {
