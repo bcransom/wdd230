@@ -409,7 +409,6 @@ button#list, button#grid {
 
 .list section h2 {
     line-height: 1.5em;
-    text-emphasis: bold;
     font-size: 16px;
     padding: 0;
 }
@@ -432,6 +431,6 @@ section.card {
 
 
 section.card:hover {
-    scale: 1.05;
+    transform: scale(1.02);
 }
 
