@@ -380,6 +380,7 @@ main.thank-you {
     text-align: center;
 }
 
+
 .card img {
     max-width: 200px;
 }
@@ -421,5 +422,16 @@ section.card h2 {
     background-color: white;
 }
 
+section.card {
+    box-shadow: 10px 5px 5px #EFB514;
+}
 
+/* .grid section {
+    box-shadow: 10px 5px 5px #EFB514;
+} */
+
+
+section.card:hover {
+    scale: 1.05;
+}
 

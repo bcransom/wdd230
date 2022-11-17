@@ -1,5 +1,5 @@
 //fetch and return data from outside source
-const requestURL = 'https://bcransom.github.io/wdd230/lesson9/json/directory.json';
+const requestURL = 'json/directory.json';
 const cards = document.querySelector('.directory-cards');
 
 async function getMembers() {
@@ -25,7 +25,7 @@ function displayMembers(member) {
     h2.textContent = `${member.name}`;
     address.textContent = `${member.address}`;
     phone.textContent = `${member.phone}`;
-    website.textContent = `${member.website}`;
+    website.innerHTML = `<a href="${member.website}">${member.website}</a>`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
    logo.setAttribute('src', member.logo);
