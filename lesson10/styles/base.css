@@ -282,11 +282,17 @@ form fieldset {
     padding: .5rem 2%;
 }
 
+label {
+    margin: auto;
+    width: 70%;
+}
+
 form legend {
     color: #608708;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     padding: 0 .5rem;
     font-size: 1.5rem;
+    margin: auto;
 }
 
 form label.top {
@@ -303,8 +309,10 @@ form label.top input, form label.top select, form label.top textarea {
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
-    max-width: 18rem;
+    /* width: 100%; */
+    /* max-width: 18rem; */
+    width: 70%;
+    margin: auto;
     background-color: rgba(0, 0, 0, .04);
 }
 
@@ -313,6 +321,8 @@ form label.sbs {
     padding: .75rem 0;
     color: #555;
     font-size: 1rem;
+    margin: auto;
+    width: 50%;
 }
 
 input.submit-btn {

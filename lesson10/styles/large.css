@@ -126,6 +126,10 @@
    
    /* ----------------  JOIN PAGE ---------------- */
    
+   main.join-form {
+    max-width: 1200px;
+   }
+  
    form label.sbs {
        padding: .4rem 0;
    }
