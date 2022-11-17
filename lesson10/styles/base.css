@@ -425,11 +425,6 @@ section.card {
     box-shadow: 10px 5px 5px #EFB514;
 }
 
-/* .grid section {
-    box-shadow: 10px 5px 5px #EFB514;
-} */
-
-
 section.card:hover {
     transform: scale(1.02);
 }

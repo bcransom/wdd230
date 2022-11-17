@@ -397,7 +397,6 @@ button#list, button#grid {
 
 .list section h2 {
     line-height: 1.5em;
-    text-emphasis: bold;
     font-size: 16px;
     padding: 0;
 }
@@ -410,5 +409,17 @@ section.card h2 {
     background-color: white;
 }
 
+section.card {
+    box-shadow: 10px 5px 5px #EFB514;
+}
+
+/* .grid section {
+    box-shadow: 10px 5px 5px #EFB514;
+} */
+
+
+section.card:hover {
+    transform: scale(1.02);
+}
 
 

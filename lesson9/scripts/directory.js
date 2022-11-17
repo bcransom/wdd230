@@ -25,7 +25,7 @@ function displayMembers(member) {
     h2.textContent = `${member.name}`;
     address.textContent = `${member.address}`;
     phone.textContent = `${member.phone}`;
-    website.textContent = `${member.website}`;
+    website.innerHTML = `<a href="${member.website}">${member.website}</a>`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
    logo.setAttribute('src', member.logo);
