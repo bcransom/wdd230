@@ -30,6 +30,7 @@ header {
     width: 18px;
     display: inline;
     padding: .5em;
+    grid-column: 2 / 3;
 }
 
 header img {
@@ -53,6 +54,7 @@ nav {
     max-width: 940px;
     padding: 5px 5px;
     margin: 0 auto; 
+    grid-column: 3 / 4;
 }
 
 nav button {
@@ -61,7 +63,6 @@ nav button {
     border: none;
     font-size: 2rem;
     color: #555;
-    grid-column: 3 / 4;
 }
 
 nav ul {
