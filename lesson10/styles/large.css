@@ -62,7 +62,7 @@
        main.home {
            max-width: 1200px;
            display: grid;
-           grid-template-rows: 1fr 1fr 1fr;
+           grid-template-rows: min-content;
            grid-template-columns: 1fr 1fr 1fr 1fr;
        }
    

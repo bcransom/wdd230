@@ -11,8 +11,8 @@
 
     main.home {
         display: grid;
-        grid-template-rows: repeat(5);
-        grid-template-columns: repeat(3);
+        grid-template-rows: min-content;
+        grid-template-columns: 1fr 1fr 1fr;
     } 
 
     .banner p {
