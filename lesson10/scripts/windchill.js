@@ -4,7 +4,7 @@ const captionDesc = document.querySelector('figcaption');
 const windSpeed = document.querySelector('#wind-speed');
 
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&appid=8aa00bcb7d9ef8664ead98d54b36ceda&units=imperial'
+const url = 'https://api.openweathermap.org/data/2.5/weather?zip=84725,US&appid=8aa00bcb7d9ef8664ead98d54b36ceda&units=imperial'
 
 async function apiFetch() {
     try {
