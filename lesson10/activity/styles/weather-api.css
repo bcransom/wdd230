@@ -27,5 +27,5 @@ p, figcaption {
 }
 
 figure:hover {
-    scale: 1.05;
+    transform: scale(1.05);
 }

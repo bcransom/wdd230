@@ -175,7 +175,12 @@ main section {
     border: 2px solid #608708;
     padding: 1rem;
     margin: 1rem; 
+    text-align: center;
 } 
+
+main.home div {
+    text-align: center;
+}
 
 .hero-div {
     position: relative;
@@ -210,11 +215,31 @@ button {
 
 
 #spot3 {
-    display: none
+    display: none;
+}
+
+p.spot-contact {
+    border-top: #608708 solid 1px;
+    font-size: 12px;
 }
 
 .join {
     display: none;
+}
+
+.weather-figure {
+    text-align: center;
+    margin: auto;
+    border-bottom: #608708 solid 1px;
+}
+
+.weather-figure:hover {
+    transform: scale(1.03);
+}
+
+.weather-caption {
+    font-size: 20px;
+    margin: 16px;
 }
 
 footer {

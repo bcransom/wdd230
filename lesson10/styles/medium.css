@@ -41,6 +41,10 @@
         max-width: 100%;
     }
 
+    /* section.spotlight :nth-child(1), section.spotlight :nth-child(2) {
+        width: 50%;
+    }     */
+
 
     .join {
         display: block;
