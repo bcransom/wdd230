@@ -94,7 +94,7 @@
            grid-column: 1 / 2;
        }
    
-       .join {
+       main.home div.join {
            display: block;
            grid-row: 3 / 4;
            grid-column: 1 / 2;
