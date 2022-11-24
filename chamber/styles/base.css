@@ -164,7 +164,7 @@ p, .date, ul, form label.sbs, form label.top, form label.top input, form label.t
     line-height: 1.5em;
 }
 
-main.home div, main.discover div, div.membership-levels {
+main.home div, main.discover div, div.membership-levels, div.contact-info {
     display: block;
     background-color: #eee;
     border: 2px solid #608708;
@@ -378,15 +378,15 @@ form label.top input:required:valid {
     border-left: #9DC516 solid 6px;
 }
 
-div.membership-levels h3 {
+div.membership-levels h3, div.contact-info h3 {
     margin: 2rem 0 0 0;
 }
 
-div.membership-levels p {
+div.membership-levels p, div.contact-info p {
     margin: .5rem 0 0 0;
 }
 
-div.membership-levels h2 {
+div.membership-levels h2, div.contact-info h2 {
     text-align: center;
 }
 

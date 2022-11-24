@@ -13,11 +13,11 @@
     <!-- Meta Description -->
     <meta
       name="description"
-      content="Learning Project: Chamber of Commerce (join page)"
+      content="Learning Project: Chamber of Commerce (contact page)"
     >
 
     <!-- Document Title -->
-    <title>Enterprise City Chamber of Commerce - Join</title>
+    <title>Enterprise City Chamber of Commerce - Contact</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
@@ -81,63 +81,45 @@
    
     </header>
 
-    <main class="join-form">
-      <h1>Chamber Member Application</h1>
-      <div class="membership-levels">
-        <h2>Membership Levels</h2>
-        <h3>Non-Profit Membership - Free</h3>
-        <p>Free for non-profit organizations. Join today and get the exposure,
-          networking and support you need.
+    <main class="contact-form">
+      <h1>Contact Us</h1>
+      <div class="contact-info">
+        <h2>Enterprise Chamber of Commerce</h2>
+        <h3>Hours</h3>
+        <p>Monday - Friday: &emsp; 9:00am - 5:00pm<br>
+        Saturday - Sunday: &emsp; Closed</p>
+        <h3>Address</h3>
+        <p>1100 N Boulevard<br>Enterprise, Utah, 84725</p>
+        <h3>Phone</h3>
+        <p><a href="tel:123-456-7890" runtime_url="tel:123-456-7890" type="call">123-456-7890</a>  
         </p>
-        <h3>Bronze Membership - $750</h3>
-        <p>Perfect for smaller businesses with 30-50 employees. Two free tickets
-          to the monthly Meet and Greet luncheon. Link to your website & social
-          media pages on the Chamber online directory. 
+        <h3>Email</h3>
+        <p><a href="mailto:info@enterprisecitychamber.org" runtime_url="mailto:info@enterprisecitychamber.org" type="email">info@enterprisecitychamber.org</a>
+            <!-- <br><br>
+            <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook logo" ></a>
+            <a href="https://facebook.com"><img src="images/instagram-logo.png" alt="Instagram logo" ></a> -->
         </p>
-        <h3>Silver Membership - $1000</h3>
-        <p>Great for medium size businesses with 60-100 employees. Four free tickets
-          to the monthly Meet and Greet luncheon. Link to your website & social
-          media pages on the Chamber online directory. Advertisement on Chamber
-          website "Spotlight" section.  
-        </p>
-        <h3>Gold Membership - $1300</h3>
-        <p>Great for medium size businesses with 60-100 employees. 6 free tickets
-          to the monthly Meet and Greet luncheon. Link to your website & social
-          media pages on the Chamber online directory. Advertisement on Chamber
-          website "Spotlight" section. Free access to trainings held monthly.
-          Free Ribbon Cutting, Open House and Ground Breaking support services. 
-        </p>
+        <h3>Membership Director</h3>
+        <p>Jonah Barlow<br>
+            <a href="tel:123-456-7890" runtime_url="tel:123-456-7890" type="call">123-456-7890</a>, ext. 101</p>
+        <h3>General Inquiries</h3>
+        <p>Heidi Smith<br>
+            <a href="tel:123-456-7890" runtime_url="tel:123-456-7890" type="call">123-456-7890</a>, ext. 102</p>
       </div>
 
       
         <form method="get" action="thankyou.html">
             <fieldset>
-                <legend>Business Details</legend>
+                <legend>Contact Form</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Business Name*<input type="text" name="business-name" required></label>
-                <label class="top">Business Description<textarea name="description"></textarea></label>
-                <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
+                <label class="top">Question / Concern:<textarea name="description"></textarea></label>
             </fieldset>
             
-            <fieldset>
-                <legend>Primary Contact</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Position/Title <input type="text" name="position" id="position" pattern="[a-zA-Z- ]{7,}" placeholder="Job Title" title="Alpha characters, hyphens and spaces only. Minimum 7 characters."></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Membership Level</legend>
-                <label class="sbs"><input type="radio" name="membership" value="nonprofit">  Non-Profit Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="bronze">  Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="silver">  Silver Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="gold">  Gold Membership</label>
-            </fieldset>
-
             <input type="hidden" id="submission-date" name="submit-date" value="">
 
-            <input type="submit" value="Join Chamber" class="submit-btn"> 
+            <input type="submit" value="Contact Chamber" class="submit-btn"> 
 
         </form>
 
