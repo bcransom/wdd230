@@ -1,0 +1,31 @@
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    max-width: 940px;
+    padding: 25px 25px;
+    margin: 0 auto;
+}
+
+div {
+    background-color: azure;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid peachpuff;
+    border-radius: 10px;
+  
+}
+
+p strong {
+    text-decoration: solid underline black;
+}
+
+p, figcaption {
+    font-size: 20px;
+}
+
+figure:hover {
+    transform: scale(1.05);
+}

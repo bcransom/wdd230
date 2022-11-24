@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8" >
+
+    <!-- Viewport for responsive web design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    >
+
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Learning Project: Chamber of Commerce (thank you page)"
+    >
+
+    <!-- Document Title -->
+    <title>Enterprise City Chamber of Commerce</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">    
+
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- link to Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <!--   HEADER   -->
+  <!--The navigation menu starts with a 'hamburger' button in the small and medium views and is visible in the larger view.-->
+    <header>
+          
+      <div class="logo" >
+        <img src="images/new-corn-logo.webp" alt="Enterprise City Chamber Corn logo " >
+        <h1>Enterprise City Chamber of Commerce</h1>
+      </div>
+  
+    <!--FACEBOOK and SOCIAL MEDIA ICON/LINKS-->
+    <div class="social">
+      <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook logo" ></a>
+      <a href="https://facebook.com"><img src="images/instagram-logo.png" alt="Instagram logo" ></a>
+    </div> 
+  
+    <nav> 
+      <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+    <ul id="primary-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><div class="social-small">
+        <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook logo" ></a>
+        <a href="https://facebook.com"><img src="images/instagram-logo.png" alt="Instagram logo" ></a>
+      </div> </li>
+    </ul>  
+    </nav> 
+              
+        <!--JAVASCRIPT DATE-->
+        <div class="date"></div>
+
+    <!-- BANNER -- if statement in Javascript but then how to do CSS? --> 
+ 
+    <div class="banner">
+      <p>Come Join us for the Chamber Meet and Greet Wednesday at 7:00 pm</p>
+    </div> 
+   
+    </header>
+
+    <main class="thank-you">
+    
+    <h1>Thank you for Joining!</h1>
+    <p>Your submission was received. A chamber representative will be contacting 
+        you within 3-5 business days to finalize your membership. 
+    </p>
+
+
+
+    </main>
+
+    <footer>
+        <section class="foot-contact">
+          <div class="footer-logo">
+            <img src="images/new-corn-logo.webp" alt="Enterprise City Chamber Corn logo " >
+            <div><h1>Enterprise City Chamber of Commerce</h1>
+            <p>1100 N Boulevard<br>Enterprise, Utah, 84725</p></div>
+            <div><p>info@enterprisecitychamber.org</p>
+            <p>(123)456-7890</p>
+            <p><a href="https://www.google.com/maps/place/Enterprise,+UT/@37.566203,-113.713138,14z/data=!3m1!4b1!4m5!3m4!1s0x80b58ba09e7d7481:0xc72698404059a713!8m2!3d37.5735867!4d-113.7191329">
+              Location</a></p></div>
+          </div>
+     
+        </section>
+        <br>
+        <div class="foot-base">
+        <p>
+          &copy; <span id="current-year"></span>  |  Enterprise City Chamber  
+          |  Chanae Ransom  |  WDD 230 Project  |  Last Modification: <span id="last-modified"></span>
+        </p>
+        <script src="scripts/script.js"></script>
+        </div>
+      </footer>
+     </html>
