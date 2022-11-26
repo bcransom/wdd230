@@ -138,7 +138,7 @@ main {
     margin: 0 auto; 
 }
 
-h1, h2, h3, input.submit-btn, form legend {
+h1, h2, h3, input.submit-btn, form legend, button {
     font-family: 'Merriweather', serif;
 }
 
@@ -155,7 +155,7 @@ h2 {
     line-height: 1em;
 }
 
-h3 {
+h3, button {
     line-height: 1em;
 }
 
@@ -205,7 +205,7 @@ picture.hero-img img {
 
 button {
     background-color: #EFB514;
-    padding: 5px 10px;
+    padding: 15px 20px;
     border-radius: 10px;
     font-size: 1em;
     cursor: pointer;
@@ -424,10 +424,6 @@ main.thank-you {
 }
 
 button#list, button#grid {
-    background-color: #EFB514;
-    padding: 0px 24px;
-    border-radius: 10px;
-    font-size: 1em;
     margin: 10px;
 }
 
