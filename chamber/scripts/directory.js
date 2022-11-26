@@ -49,7 +49,7 @@ displayMembers(data);
 //select the grid and list buttons from page
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article.directory-cards");
+const display = document.querySelector("div.directory-cards");
 
 gridbutton.addEventListener("click", () => {
     display.classList.add("grid");
