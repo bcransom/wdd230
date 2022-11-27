@@ -1,11 +1,11 @@
-@media (min-width: 60em) {
-    /*   header, footer {
+@media (min-width: 80em) {
+      /* header, footer {
            max-width: 1200px;
        } */
    
        header {
            display: grid;
-           grid-template-columns: 40% 50% 10%;
+           grid-template-columns: 40% 60%;
            grid-template-rows: 1fr 15%;
            padding: 5px 25px;
        }
@@ -14,6 +14,11 @@
        nav {
            grid-column: 2 / 3;
            grid-row: 1 / 2;
+           /* max-width: 1200px; */
+       }
+
+       ul#primary-nav {
+            padding: 0;
        }
        
    
@@ -25,7 +30,7 @@
            font-family: 'Montserrat', sans-serif;
            font-weight: bold;
            border-top: none;
-           font-size: 1.3em;
+           font-size: 1.2em;
            padding: 15px;
        }
        
@@ -48,7 +53,7 @@
        .social-small {
            display: flex;
            justify-content: flex-end; 
-           grid-column: 3 / 4;
+           /* grid-column: 3 / 4; */
         }
 
         .social {
