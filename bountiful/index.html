@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8" >
+
+    <!-- Viewport for responsive web design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    >
+
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Final Project: Bountiful Foods (home page)"
+    >
+
+    <!-- Document Title -->
+    <title>Bountiful Foods</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="favicon_io_chamber/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io_chamber/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io_chamber/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io_chamber/site.webmanifest">   -->
+
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- link to Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&family=Satisfy&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <!--   HEADER   -->
+  <!--The navigation menu starts with a 'hamburger' button in the small and medium views and is visible in the larger view.-->
+    <header>
+    
+        <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+
+        <h1 class="title">Bountiful Foods</h1>
+
+        <!--JAVASCRIPT DATE-->
+        <div class="date"></div>
+        
+        
+    <nav> 
+    <ul id="primary-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Fresh</a></li>
+      <li><a href="#">About</a></li>
+    </ul>  
+    </nav> 
+            
+    </header>
+
+  <main class="home">
+
+    <div class="hero-div">
+        <h2 class="hero-h2">Bountiful Foods</h2>
+        <p class="hero-p">Organic, Fresh, Local</p>
+        <picture class="hero-img">
+            <source media="(max-width: 32.4em)" srcset="">
+            <source media="(max-width: 59.9em)" srcset="">
+            <img src="" alt="hero image"
+        </picture>
+    </div>
+
+    <div class="customize">
+        <h3>Customize Your Own Specialty Fruit Drink Mix</h3>
+        <button class="order-btn">Create Your Drink</button>
+        <picture>
+            <img src="" alt="Fruit Drink">
+        </picture>
+    </div>
+
+    <div class="local">
+        <h3>Locally Grown</h3>
+        <picture>
+            <img src="" alt="Local Store Produce">
+        </picture>
+        <p>Carlsbad is known as "The Village by the Sea." With a perfectly mild climate,
+            each season offers a variety of unique events and activities, from street fairs
+            to art walks, to beautiful beaches and wild-life. 
+            Visit our storefront in Carlsbad to pick out your own fresh, organic 
+            produce today! 
+        </p>
+    </div>
+
+  
+       <!-- <div class="hero-div">
+        <h2 class="hero-h2">Welcome to Enterprise</h2>
+        <picture class="hero-img">
+          <source media="(max-width: 32.4em)" srcset="images/enterprise-field-200.jpeg">
+          <source media="(max-width: 59.9em)" srcset="images/enterprise-field-500.jpeg">
+          <img src="images/enterprise-field-800.jpeg" alt="hero image">
+        </picture>
+      </div>
+     
+      <div class="weather">
+        <h3>Weather</h3>
+        <figure class="weather-figure">
+          <img src="" alt="" id="weather-icon">
+          <figcaption class="weather-caption"></figcaption>
+        </figure>
+        <p>Temperature:
+        <span id="temperature"></span>&deg;F</p>
+        <p>Wind Speed:
+        <span id="wind-speed"></span></p>
+        <p>Wind Chill:
+          <span id="wind-chill"></span></p>
+      </div>
+   -->
+  
+    </main> 
+  
+
+ 
+  <footer>
+   
+
+    <!--FACEBOOK and SOCIAL MEDIA ICON/LINKS-->
+    <div class="social">
+        <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook logo" ></a>
+        <a href="https://facebook.com"><img src="images/instagram-logo.png" alt="Instagram logo" ></a>
+      </div> 
+   
+    <div class="foot-contact">
+    <div class="footer-logo">
+      <img src="images/new-corn-logo.webp" alt="Enterprise City Chamber Corn logo " >
+      <div><p class="logo-text">Bountiful Foods<p>
+      <p>1100 N Boulevard<br>Carlsbad, California 92008</p></div>
+      <div><p><a href="mailto:info@enterprisecitychamber.org">info@bountifulfoods.com</a></p>
+          <p><a href="tel:123-456-7890">123-456-7890</a></p>
+      <p><a href="https://www.google.com/maps/place/Visit+Carlsbad/@33.1597667,-117.3497209,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc72101f73bd2f:0x72e68b2c6c24c53!8m2!3d33.1597667!4d-117.3497209">
+        1100 N Boulevard<br>Carlsbad, California 92008</a></p></div>
+    </div>
+  </div>
+   <br>
+   <div class="foot-base">
+   <p>
+     &copy; <span id="current-year"></span>  |  Bountiful Foods  
+     |  Chanae Ransom  |  WDD 230 Project  |  Last Modification: <span id="last-modified"></span>
+   </p>
+   <p>Weather data provided by <a href="https://openweather.map.org">OpenWeather</a></p>
+   <script src="scripts/script.js"></script>
+   <script src="scripts/windchill.js"></script>
+   </div>
+ </footer>
+</html>
