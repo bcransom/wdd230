@@ -1,0 +1,31 @@
+/* body {
+    background-image: url(/bountiful/images/mordo-bilman-k7EjzzK1uhk-unsplash.jpg);
+    background-color: white;
+} */
+
+
+
+nav ul.open {
+    display: block;
+}
+
+/* setting the hamburger button visible, and X visible*/
+#hamburger-btn span:nth-child(1) {
+    display: block;
+}
+
+#hamburger-btn span:nth-child(2), #primary-nav {
+    display: none;
+}
+
+#hamburger-btn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburger-btn.open span:nth-child(2) {
+    display: block;
+}
+
+#primary-nav.open {
+    display: block;
+}
