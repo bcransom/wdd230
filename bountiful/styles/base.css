@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&family=Satisfy&display=swap');
+
 /* body {
     background-image: url(/bountiful/images/mordo-bilman-k7EjzzK1uhk-unsplash.jpg);
     background-color: white;
@@ -29,3 +31,27 @@ nav ul.open {
 #primary-nav.open {
     display: block;
 }
+
+h1, h2, h3, h4 {
+    font-family: 'Patua One', serif;
+}
+
+h1, h2 {
+    color: #284B63;
+}
+
+h3 {
+    color: #3C6E71;
+}
+
+p, nav {
+    font-family: 'Roboto';
+}
+
+
+
+.hero-img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
