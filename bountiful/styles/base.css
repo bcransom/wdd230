@@ -110,8 +110,11 @@ main.home div {
 
 .hero-tag {
     position: absolute;
-    top: 40px;
-    left: 100px;
+    /* top: 40px;
+    left: 100px; */
+    left: 0;
+    right: 0;
+    margin: 20% auto;
     background-color: rgba(240, 240, 240, 0.8);
 }
 
@@ -122,6 +125,7 @@ h2.hero-h2, p.hero-p {
 p.hero-p {
     font-family: 'Satisfy', sans-serif;
     color: #3C6E71;
+    font-size: 1em;
 }
 
 picture.hero-img img {
