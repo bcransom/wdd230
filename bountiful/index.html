@@ -44,7 +44,7 @@
     <header>
     
         <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
-        <h1>Bountiful Foods</h1>
+        <h1 class="logo-text">Bountiful Foods</h1>
 
         <!--JAVASCRIPT DATE-->
         <div class="date"></div>
@@ -74,17 +74,23 @@
     </div>
 
     <div class="customize">
-        <h3>Customize Your Own Specialty Fruit Drink Mix</h3>
+        <div class="customize-tag">
+            <h3>Customizable Fruit Drinks</h3>
         <button class="order-btn">Create Your Drink</button>
-        <picture>
-            <img src="" alt="Fruit Drink">
+        </div>
+        <picture class="drinks">
+            <source media="(max-width: 32.4em)" srcset="images/drinks-200.jpeg">
+            <source media="(max-width: 59.9em)" srcset="images/drinks-500.jpeg">
+            <img src="images/drinks-800.jpeg" alt="Fruit Drink">
         </picture>
     </div>
 
     <div class="local">
         <h3>Locally Grown</h3>
-        <picture>
-            <img src="" alt="Local Store Produce">
+        <picture class="carlsbad">
+            <source media="(max-width: 32.4em)" srcset="images/carlsbad-200.jpeg">
+            <source media="(max-width: 59.9em)" srcset="images/carlsbad-500.jpeg">
+            <img src="images/carlsbad-800.jpeg" alt="Carlsbad">
         </picture>
         <p>Carlsbad is known as "The Village by the Sea." With a perfectly mild climate,
             each season offers a variety of unique events and activities, from street fairs
@@ -99,7 +105,7 @@
 
     </div>
 
-    <div class="drinks">
+    <div class="history">
         <h3>Your Drink History</h3>
         <p>Total # of Drinks You Have Ordered<span id="drinks-ordered"></span></p>
     </div>
@@ -137,7 +143,6 @@
    
     <div class="foot-contact">
     <div class="footer-logo">
-      <img src="" alt="Bountiful Foods logo " >
       <div><p class="logo-text">Bountiful Foods<p>
       <p>1100 N Boulevard<br>Carlsbad, California 92008</p></div>
       <div><p><a href="mailto:info@bountifulfoods.com">info@bountifulfoods.com</a></p>
@@ -159,7 +164,7 @@
      &copy; <span id="current-year"></span>  |  Bountiful Foods  
      |  Chanae Ransom  |  WDD 230 Project  |  Last Modification: <span id="last-modified"></span>
    </p>
-   <a href="Bountiful Foods Website Planning Document-combined.pdf">Site Plan</a>
+   <p><a href="Bountiful Foods Website Planning Document-combined.pdf">Site Plan</a></p>
    <p>Weather data provided by <a href="https://openweather.map.org">OpenWeather</a></p>
    <script src="scripts/script.js"></script>
    <!-- <script src="scripts/windchill.js"></script> -->

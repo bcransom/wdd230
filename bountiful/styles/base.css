@@ -18,8 +18,10 @@ header {
     margin-bottom: 10px;
 }
 
-header h1 {
+.logo-text {
     font-family: 'Satisfy', sans-serif;
+    color: #284B63;
+    font-size: 32px;
 }
 
 div.date {
@@ -55,14 +57,20 @@ nav ul.open {
 button#hamburger-btn {
     margin: 15px;
     font-size: 1.5em;
+    color: #ffff;
+    background-color: #284B63;
 }
 
+button, #hamburger-btn span {
+    background-color: #284B63;
+    color: #ffff
+}
 nav button {
     margin: .2em;
     background-color: transparent;
     border: none;
     /* font-size: 3rem; */
-    color: #D9D9D9;
+    background-color: #284B63;
 }
 
 nav ul {
@@ -96,16 +104,18 @@ h3 {
     color: #3C6E71;
 }
 
-p, nav {
+p, nav, button {
     font-family: 'Roboto', sans-serif;
+    margin: 15px;
 }
 
-main.home div {
+main.home div, footer {
     text-align: center;
 }
 
-.hero-div {
+.hero-div, div.customize {
     position: relative;
+    margin-top: 20px;
 }
 
 .hero-tag {
@@ -129,9 +139,33 @@ p.hero-p {
 }
 
 picture.hero-img img {
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     margin: 0;
 }
 
+.customize, .local, .weather, .history {
+    box-shadow: 10px 10px 5px #D9D9D9;
+    margin: 15px;
+    border: 1px #D9D9D9 solid;
+}
+
+button.order-btn {
+    /* position: absolute;
+    bottom: 30px;
+    left: 50px; */
+    padding: 10px;
+    margin: 0  0 15px 0;
+}
+
+picture.drinks img, picture.carlsbad img {
+    object-fit: cover;
+    max-width: 100%;
+    margin: 18px;
+}
+
+footer {
+    border-top: 2px solid #3C6E71;
+    margin-top: 10px;
+}
 
