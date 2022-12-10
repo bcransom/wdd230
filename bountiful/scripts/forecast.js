@@ -1,13 +1,13 @@
-const forecast1 = document.querySelector('#forecast1');
-const forecast2 = document.querySelector('#forecast2');
-const forecast3 = document.querySelector('#forecast3');
+const forecast = document.querySelector('#forecast');
+// const forecastDay2 = document.querySelector('#forecast2');
+// const forecastDay3 = document.querySelector('#forecast3');
 
 
-const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=33.15&lon=-117.35&appid=8aa00bcb7d9ef8664ead98d54b36ceda&units=imperial'
+const urlForecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=33.15&lon=-117.35&appid=8aa00bcb7d9ef8664ead98d54b36ceda&units=imperial'
 
-async function apiFetch() {
+async function apiFetchForecast() {
     try {
-      const response = await fetch(url);
+      const response = await fetch(urlForecast);
       if (response.ok) {
         const data = await response.json();
         console.log(data); // this is for testing the call
@@ -20,15 +20,23 @@ async function apiFetch() {
     }
   }
 
-  function displayResults(weatherData) {
-    const d = new Date(weatherData.weather[1].dt_text)
-    let day = d.getDay();
+  function displayResults(forecastData) {
+    // const today = new Date();
+    // const day1 = new Date(today);
+    // const day2 = new Date(today);
+    // const day3 = new Date(today);
+    // day1.setDate(day1.getDate() + 1);
+    // day2.setDate(day2.getDate() + 2);
+    // day3.setDate(day3.getDate() + 3);
 
-    forecast1.innerHTML = `<strong>${day} ${weatherData[1].main.temp.toFixed(2)}</strong>`;
+    // forecastData.innerHTML = `<strong>${day1.setDate(day1.getDate() + 1)} ${weatherData[1].main.temp.toFixed(2)}</strong>`;
+    // forecastDay2.innerHTML = `<strong>${day2.setDate(day2.getDate() + 2)} ${weatherData[2].main.temp.toFixed(2)}</strong>`; 
+    // forecastDay3.innerHTML = `<strong>${day3.setDate(day3.getDate() + 3)} ${weatherData[3].main.temp.toFixed(2)}</strong>`;
+    // forecastData.innerHTML = `<strong>${weatherData[1].main.temp.toFixed(2)}</strong>`;
 
-
+    forecast.innerHTML = `<strong>${forecastData[1].main.temp.toFixed(2)}</strong>`;
 
   }
 
 
-  apiFetch();
+  apiFetchForecast();
