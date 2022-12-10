@@ -24,6 +24,11 @@ header {
     font-size: 32px;
 }
 
+.logo-text a:link, .logo-text a:visited {
+    text-decoration: none;
+    color: #284B63;
+}
+
 div.date {
     text-align: center;
     margin: 10px;
@@ -63,8 +68,10 @@ button#hamburger-btn {
 
 button, #hamburger-btn span {
     background-color: #284B63;
-    color: #ffff
+    color: #ffff;
+    cursor: pointer;
 }
+
 nav button {
     margin: .2em;
     background-color: transparent;
@@ -157,6 +164,10 @@ button.order-btn {
     padding: 10px;
     margin: 0  0 15px 0;
 }
+
+
+
+
 
 picture.drinks img, picture.carlsbad img {
     object-fit: cover;
