@@ -186,40 +186,6 @@ footer {
 
 /* ----------------  FRESH PAGE ---------------- */
 
-/* form {
-    display: block;
-    margin: 0 1rem 2rem 1rem;
-    border: 2px solid #D9D9D9;
-    border-radius: 10px;
-    padding: .5rem 2%;
-}
-
-form fieldset {
-    border: none;
-}
-
-label {
-    margin: auto;
-    width: 70%;
-}
-
-form legend {
-    color: #3C6E71;
-    padding: 0 .5rem;
-    font-size: 1.5rem;
-    margin: auto;
-    text-align: center;
-}
-
-form label.top, label.fruit-selection, #selectfruit {
-    display: block;
-    padding-top: 1rem;
-    color: #284B63;
-    font-size: 1rem;
-    margin: auto;
-    width: 70%;
-} */
-
 
 form fieldset {
     display: block;

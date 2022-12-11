@@ -1,0 +1,25 @@
+/* ----------------  ATTRIBUTION PAGE ---------------- */
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+div.attribution-list {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+}
+
+div.photo-attribution {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+img.unsplash {
+    max-width: 200px;
+}
