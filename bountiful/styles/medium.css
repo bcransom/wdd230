@@ -35,4 +35,17 @@
         max-width: 90%;
     }
 
+/* ----------------  FRESH PAGE ---------------- */
+
+input.submit-btn {
+    width: 95%;
+}
+
+form label.top, form label.fruit-selection {
+    font-size: 1.25rem;
+}
+
+
+
+
 }
