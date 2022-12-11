@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8" >
+
+    <!-- Viewport for responsive web design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    >
+
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Final Project: Bountiful Foods (fresh page)"
+    >
+
+    <!-- Document Title -->
+    <title>Bountiful Foods</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io_strawberry/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io_strawberry/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io_strawberry/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io_strawberry/site.webmanifest">  
+
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- link to Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&family=Satisfy&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <body>
+  <!--   HEADER   -->
+  <!--The navigation menu starts with a 'hamburger' button in the small and medium views and is visible in the larger view.-->
+    <header>
+    
+        <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+        <h1 class="logo-text"><a href="index.html">Bountiful Foods</a></h1>
+
+        <!--JAVASCRIPT DATE-->
+        <div class="date"></div>
+        
+        
+    <nav> 
+    <ul id="primary-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="fresh.html">Fresh</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>  
+    </nav> 
+            
+    </header>
+
+  <main class="fresh-form">
+
+    <h1>Fresh Fruit Drinks</h1>
+
+    <div class="fresh-instructions">
+        <h2>Specialty Drinks Order Form</h2>
+        <p>Choose your own fresh ingredients for a healthy  and refreshing drink. 
+            Fill out the form below with your ingredient choices and contact details. 
+        We take the time to ensure that all fruit is fresh for your drink. 
+        Please allow for 10-15 minutes to complete your order. </p>
+    </div>
+
+    <form method="get" action="">
+        
+        <fieldset>
+            <legend>Primary Contact</legend>
+            <label class="top">First Name*<input type="text" name="fname" required></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Select up to 3 Fruit:</legend>
+        <label class="fruit-selection" for="fruit">First Fruit Selection
+        <select id="fruit" name="fruit-one">
+            <option value="Apple">Apple</option>
+            <option value="Orange">Orange</option>
+            <option value="Pineapple">Pineapple</option>
+        </select></label><br>
+
+        <label class="fruit-selection" for="fruit">Second Fruit Selection
+        <select id="fruit" name="fruit-two">
+            <option value="Apple">Apple</option>
+            <option value="Orange">Orange</option>
+            <option value="Pineapple">Pineapple</option>
+        </select></label><br>
+      
+        <label class="fruit-selection" for="fruit">Third Fruit Selection
+        <select id="fruit" name="fruit-three">
+            <option value="Apple">Apple</option>
+            <option value="Orange">Orange</option>
+            <option value="Pineapple">Pineapple</option>
+        </select></label>
+        </fieldset>
+        
+
+        <input type="hidden" id="submission-date" name="submit-date" value="">
+
+        <input type="submit" value="Create Drink" class="submit-btn"> 
+
+    </form>
+
+    
+  </main> 
+  
+
+ 
+  <footer>
+   
+    <div class="foot-contact">
+    <div class="footer-logo">
+      <div><p class="logo-text"><a href="index.html">Bountiful Foods</a><p>
+      <p>1100 N Boulevard<br>Carlsbad, California 92008</p></div>
+      <div><p><a href="mailto:info@bountifulfoods.com">info@bountifulfoods.com</a></p>
+          <p><a href="tel:123-456-7890">123-456-7890</a></p>
+      <p><a href="https://www.google.com/maps/place/Visit+Carlsbad/@33.1597667,-117.3497209,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc72101f73bd2f:0x72e68b2c6c24c53!8m2!3d33.1597667!4d-117.3497209">
+        1100 N Boulevard<br>Carlsbad, California, 92008</a></p></div>
+    </div>
+
+     <!--FACEBOOK and SOCIAL MEDIA ICON/LINKS-->
+     <div class="social">
+        <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook logo" ></a>
+        <a href="https://instagram.com"><img src="images/instagram-logo.png" alt="Instagram logo" ></a>
+        <a href="https://pinterest.com"><img src="images/pinterest logo.png" alt="Pinterest logo" ></a>
+      </div> 
+  </div>
+   <br>
+   <div class="foot-base">
+   <p>
+     &copy; <span id="current-year"></span>  |  Bountiful Foods  
+     |  Chanae Ransom  |  WDD 230 Project  |  Last Modification: <span id="last-modified"></span>
+   </p>
+   <p><a href="Bountiful Foods Website Planning Document-combined.pdf">Site Plan</a></p>
+   <p>Weather data provided by <a href="https://openweather.map.org">OpenWeather</a></p>
+   <script src="scripts/script.js"></script>
+   <!-- <script src="scripts/weather.js"></script> -->
+   <!-- <script src="scripts/forecast.js"></script> -->
+   </div>
+ </footer>
+</body>
+</html>
