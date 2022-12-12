@@ -116,7 +116,7 @@ p, nav, button, input.submit-btn {
     margin: 15px;
 }
 
-main.home div, footer {
+main.home div, footer, main.about {
     text-align: center;
 }
 
@@ -151,7 +151,7 @@ picture.hero-img img {
     margin: 0;
 }
 
-.customize, .local, .weather, .history {
+.customize, .local, .weather, .history, .mission, .contact-info, .about-carlsbad {
     box-shadow: 10px 10px 5px #D9D9D9;
     margin: 15px;
     border: 1px #D9D9D9 solid;
@@ -173,7 +173,7 @@ button.order-btn {
 
 
 
-picture.drinks img, picture.carlsbad img {
+picture.drinks img, picture.carlsbad img, picture.market img {
     object-fit: cover;
     max-width: 100%;
     margin: 18px;
@@ -271,4 +271,23 @@ div.membership-levels p, div.contact-info p {
 
 div.membership-levels h2, div.contact-info h2 {
     text-align: center;
+}
+
+/* ----------------  ABOUT PAGE ---------------- */
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
