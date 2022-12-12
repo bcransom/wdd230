@@ -277,7 +277,8 @@ div.membership-levels h2, div.contact-info h2 {
 
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    padding-bottom: 80%;
+    /* padding-bottom: 56.25%; */
     position: relative;
     height: 0;
     margin-right: 15px;
