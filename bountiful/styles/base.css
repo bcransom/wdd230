@@ -98,6 +98,11 @@ ul#primary-nav.open {
     text-align: center;
 }
 
+.active {
+    background-color: #3C6E71;
+    color: #ffff;
+}
+
 h1, h2, h3, h4, form legend {
     font-family: 'Patua One', serif;
     text-align: center;

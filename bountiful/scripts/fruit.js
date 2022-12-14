@@ -10,7 +10,7 @@ const requestURL = 'https://brotherblazzard.github.io/canvas-content/fruit.json'
 // dropdown.addEventListener(defaultOption);
 // dropdown.selectedIndex = 0;
 
-localStorage.setItem("fname", "Chanae");
+localStorage.setItem("fname", "");
 
 const cards = document.querySelector('.order-summary');
 
