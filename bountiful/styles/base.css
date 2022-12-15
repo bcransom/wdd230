@@ -220,7 +220,7 @@ form label.top, form label.fruit-selection {
     font-size: 1rem;
 }
 
-form label.top input, form label.top select, form label.top textarea, select#fruit {
+form label.top input, form label.top select, form label.top textarea, select#fruit-one, select#fruit-two, select#fruit-three {
     display: block;
     font-size: 1rem;
     border: solid 1px #999;

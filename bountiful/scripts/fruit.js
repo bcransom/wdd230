@@ -28,7 +28,7 @@ function displayFruit(fruit) {
     let fruit1 = document.createElement('p');
     let fruit2 = document.createElement('p');
     let fruit3 = document.createElement('p');
-    let carb = document.createElement('p');
+    // let carb = document.createElement('p');
 
     card.setAttribute('class', 'card');
 
