@@ -3,11 +3,11 @@ const forecast = document.querySelector('#forecast');
 // const forecastDay3 = document.querySelector('#forecast3');
 
 
-const urlForecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=33.15&lon=-117.35&appid=8aa00bcb7d9ef8664ead98d54b36ceda&units=imperial'
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=33.15&lon=-117.35&appid=6fb4d249dd7e2566d64282138222e545&units=imperial'
 
 async function apiFetchForecast() {
     try {
-      const response = await fetch(urlForecast);
+      const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
         console.log(data); // this is for testing the call
